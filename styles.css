@@ -1,0 +1,49 @@
+@keyframes intermitente {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+}
+#pantallaInicio{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(https://www.casualarena.com/bundles/app/st/games/co4/fb/casualarena-fb-es.jpg?8877992);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+#pantallaInicio h1{
+    margin-bottom: 7rem;
+    color: red;
+    font-size: 4rem;
+    animation:intermitente 0.8s infinite;
+}
+
+#conecta4{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+#tabla{
+    width: 1700px;
+    height: 1000px;
+    background: blue;
+}
