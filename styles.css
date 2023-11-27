@@ -43,7 +43,24 @@ body{
     flex-direction: column;
 }
 #tabla{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(6,1fr);
     width: 1700px;
     height: 1000px;
     background: blue;
+    justify-items: center;
+    align-items: center;
+    padding: 40px 0px;
+    border-left: 40px solid rgb(173, 163, 66);
+    border-right: 40px solid rgb(173, 163, 66);
+    border-bottom: 80px solid rgb(0, 0, 0);
+  }
+#hueco {
+  border-radius: 50%;
+  text-align: center;
+  background: rgb(185, 181, 181);
+  width: 150px;
+  height: 150px;
+  box-shadow: 1px -1px gray, 5px -1px black, 4px 5px gray, 8px 10px black;
 }
