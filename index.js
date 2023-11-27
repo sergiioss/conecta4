@@ -87,26 +87,59 @@ function empezar(){
     start.style = "display:none";
     conecta4.style = "display:flex";
 }
-
 function quitarPosicion1(){
-    posicion1.style = "background:none"
+    if(jugador1){
+        posicion1.style = "background:red"
+    }else{
+        posicion1.style = "background:blue"
+    }
 }
 function quitarPosicion2(){
+    if(jugador1){
+        posicion1.style = "background:red"
+    }else{
+        posicion1.style = "background:blue"
+    }
     posicion2.style = "background:none"
 }
 function quitarPosicion3(){
+    if(jugador1){
+        posicion1.style = "background:red"
+    }else{
+        posicion1.style = "background:blue"
+    }
     posicion3.style = "background:none"
 }
 function quitarPosicion4(){
+    if(jugador1){
+        posicion1.style = "background:red"
+    }else{
+        posicion1.style = "background:blue"
+    }
     posicion4.style = "background:none"
 }
 function quitarPosicion5(){
+    if(jugador1){
+        posicion1.style = "background:red"
+    }else{
+        posicion1.style = "background:blue"
+    }
     posicion5.style = "background:none"
 }
 function quitarPosicion6(){
+    if(jugador1){
+        posicion1.style = "background:red"
+    }else{
+        posicion1.style = "background:blue"
+    }
     posicion6.style = "background:none"
 }
 function quitarPosicion7(){
+    if(jugador1){
+        posicion1.style = "background:red"
+    }else{
+        posicion1.style = "background:blue"
+    }
     posicion7.style = "background:none"
 }
 
@@ -118,6 +151,7 @@ function ponerPosicion1(){
     }
 }
 function ponerPosicion2(){
+    posicion1.style = "background:none"
     if(jugador1){
         posicion2.style = "background:red"
     }else{
@@ -125,6 +159,7 @@ function ponerPosicion2(){
     }
 }
 function ponerPosicion3(){
+    posicion1.style = "background:none"
     if(jugador1){
         posicion3.style = "background:red"
     }else{
@@ -132,6 +167,7 @@ function ponerPosicion3(){
     }
 }
 function ponerPosicion4(){
+    posicion1.style = "background:none"
     if(jugador1){
         posicion4.style = "background:red"
     }else{
@@ -139,6 +175,7 @@ function ponerPosicion4(){
     }
 }
 function ponerPosicion5(){
+    posicion1.style = "background:none"
     if(jugador1){
         posicion5.style = "background:red"
     }else{
@@ -146,6 +183,7 @@ function ponerPosicion5(){
     }
 }
 function ponerPosicion6(){
+    posicion1.style = "background:none"
     if(jugador1){
         posicion6.style = "background:red"
     }else{
@@ -153,13 +191,13 @@ function ponerPosicion6(){
     }
 }
 function ponerPosicion7(){
+    posicion1.style = "background:none"
     if(jugador1){
         posicion7.style = "background:red"
     }else{
         posicion7.style = "background:blue"
     }
 }
-
 
 function colocarFicha1(){
     for(let i = 0; i < array1.length; i++){
@@ -168,6 +206,7 @@ function colocarFicha1(){
                 array1[i].style = "background:red";
                 array1.shift();
                 jugador1 = false;
+                posicion1.style = "background:blue; opacity:0.3"
                 break;
             }
         }else{
@@ -175,6 +214,7 @@ function colocarFicha1(){
                 array1[i].style = "background:blue";
                 array1.shift();
                 jugador1 = true;
+                posicion1.style = "background:red; opacity:0.3"
                 break;
             }
         }
