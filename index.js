@@ -87,6 +87,9 @@ let array7=[
 function winner(){
     conecta4.style.display = "none";
     pantallaGanador.style = "display:flex";
+    setTimeout(()=>{
+        window.location.reload()
+    },3500)
 }
 
 
