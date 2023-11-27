@@ -1,14 +1,15 @@
 @keyframes intermitente {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  0% {
+    opacity: 1;
   }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 
 body{
     margin: 0;
@@ -256,3 +257,37 @@ body{
   left:1004px;
   top: 788px;
 }
+
+/* Pantalla Ganador */
+
+#pantallaGanador{
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: black;
+}
+#title-pantallaGanador{
+  color: white;
+  font-size: 3rem;
+}
+#ganador{
+  color: white;
+  font-size: 6rem;
+}
+#fuegosArtificiales{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background:url(https://usagif.com/wp-content/uploads/firework-5.gif)black;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 60rem;
+  height: 40rem;
+}
+
+

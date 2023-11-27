@@ -2,6 +2,9 @@
 let pantallaInicio = document.getElementById("pantallaInicio");
 let start = document.getElementById("start");
 let conecta4 = document.getElementById("conecta4");
+let pantallaGanador = document.getElementById("pantallaGanador");
+let ganador = document.getElementById("ganador");    
+
 //Identificadores de las fichas segun la columna
 let posicion1 = document.getElementById("posicion1");
 let posicion2 = document.getElementById("posicion2");
@@ -80,6 +83,12 @@ let array6=[
 let array7=[
     hueco42,hueco35,hueco28,hueco21,hueco14,hueco7
 ]
+
+function winner(){
+    conecta4.style.display = "none";
+    pantallaGanador.style = "display:flex";
+}
+
 
 function comprobarGanador(){
     //Comprobacion ganadora de la primera fila
@@ -162,7 +171,12 @@ function comprobarGanador(){
 
     for (const fila of filasGanadoras) {
         if (fila.every(hueco => document.getElementById(`hueco${hueco}`).style.background === "red")) {
-            console.log("¡Has ganado!");
+            ganador.innerHTML = "¡El player 1!";
+            winner();
+            return;
+        }else if(fila.every(hueco => document.getElementById(`hueco${hueco}`).style.background === "blue")){
+            ganador.innerHTML = "¡El player 2!";
+            winner();
             return;
         }
     }
@@ -170,6 +184,7 @@ function comprobarGanador(){
 
 function empezar(){
     pantallaInicio.style = "display:none";
+    pantallaGanador.style = "display:none";
     start.style = "display:none";
     conecta4.style = "display:flex";
 }
