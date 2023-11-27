@@ -49,9 +49,6 @@ body{
     background-image: url(https://img.genial.ly/56f02bbc1561e80fe0933d02/e739988d-16f2-4f93-88bf-6999f7dcd095.png);
     background-repeat:no-repeat;
     background-size:cover;
-    border-left: 40px solid rgb(173, 163, 66);
-    border-right: 40px solid rgb(173, 163, 66);
-    border-bottom: 80px solid rgb(0, 0, 0);
   }
 #hueco{
   position:absolute;
