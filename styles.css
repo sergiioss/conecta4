@@ -37,7 +37,7 @@ body{
     display: none;
     align-items: center;
     justify-content: center;
-    background-color: red;
+    background-color: rgb(94, 255, 0);
     width: 100vw;
     height: 100vh;
     flex-direction: column;
@@ -50,7 +50,7 @@ body{
     background-repeat:no-repeat;
     background-size:cover;
   }
-#hueco{
+.hueco{
   position:absolute;
   border-radius: 50%;
   text-align: center;
@@ -59,171 +59,200 @@ body{
   height: 120px;
   box-shadow: 1px -1px gray, 5px -1px black, 4px 5px gray, 8px 10px black;
 }
-.hueco1{
+#menu-colocacion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.7rem;
+}
+#menu-colocacion:hover{
+  background: none;
+}
+.opacity{
+  width: 120px;
+  height: 120px;
+  border-radius:50%;
+  background: red;
+  opacity: 0.4;
+}
+.opacity:hover{
+  opacity: 1;
+}
+#posicion2,#posicion3,#posicion4,#posicion5,#posicion6,#posicion7{
+  width: 120px;
+  height: 120px;
+  border-radius:50%;
+}
+#posicion2:hover,#posicion3:hover,#posicion4:hover,#posicion5:hover,#posicion6:hover,#posicion7:hover{
+  width: 120px;
+  height: 120px;
+  border-radius:50%;
+}
+#hueco1{
   left:119px;
   top: 53px;
 }
-.hueco2{
+#hueco2{
   left:267px;
   top: 53px;
 }
-.hueco3{
+#hueco3{
   left:414px;
   top: 53px;
 }
-.hueco4{
+#hueco4{
   left:562px;
   top: 53px;
 }
-.hueco5{
+#hueco5{
   left:705px;
   top: 53px;
 }
-.hueco6{
+#hueco6{
   left:854px;
   top: 53px;
 }
-.hueco7{
+#hueco7{
   left:1004px;
   top: 53px;
 }
-.hueco8{
+#hueco8{
   left:119px;
   top: 200px;
 }
-.hueco9{
+#hueco9{
   left:267px;
   top: 200px;
 }
-.hueco10{
+#hueco10{
   left:414px;
   top: 200px;
 }
-.hueco11{
+#hueco11{
   left:562px;
   top: 200px;
 }
-.hueco12{
+#hueco12{
   left:705px;
   top: 200px;
 }
-.hueco13{
+#hueco13{
   left:854px;
   top: 200px;
 }
-.hueco14{
+#hueco14{
   left:1004px;
   top: 200px;
 }
-.hueco15{
+#hueco15{
   left:119px;
   top: 344px;
 }
-.hueco16{
+#hueco16{
   left:267px;
   top: 344px;
 }
-.hueco17{
+#hueco17{
   left:414px;
   top: 344px;
 }
-.hueco18{
+#hueco18{
   left:562px;
   top: 344px;
 }
-.hueco19{
+#hueco19{
   left:705px;
   top: 344px;
 }
-.hueco20{
+#hueco20{
   left:854px;
   top: 344px;
 }
-.hueco21{
+#hueco21{
   left:1004px;
   top: 344px;
 }
-.hueco22{
+#hueco22{
   left:119px;
   top: 491px;
 }
-.hueco23{
+#hueco23{
   left:267px;
   top: 491px;
 }
-.hueco24{
+#hueco24{
   left:414px;
   top: 491px;
 }
-.hueco25{
+#hueco25{
   left:562px;
   top: 491px;
 }
-.hueco26{
+#hueco26{
   left:705px;
   top: 491px;
 }
-.hueco27{
+#hueco27{
   left:854px;
   top: 491px;
 }
-.hueco28{
+#hueco28{
   left:1004px;
   top: 491px;
 }
-.hueco29{
+#hueco29{
   left:119px;
   top: 642px;
 }
-.hueco30{
+#hueco30{
   left:267px;
   top: 642px;
 }
-.hueco31{
+#hueco31{
   left:414px;
   top: 642px;
 }
-.hueco32{
+#hueco32{
   left:562px;
   top: 642px;
 }
-.hueco33{
+#hueco33{
   left:705px;
   top: 642px;
 }
-.hueco34{
+#hueco34{
   left:854px;
   top: 642px;
 }
-.hueco35{
+#hueco35{
   left:1004px;
   top: 642px;
 }
-.hueco36{
+#hueco36{
   left:119px;
   top: 788px;
 }
-.hueco37{
+#hueco37{
   left:267px;
   top: 788px;
 }
-.hueco38{
+#hueco38{
   left:414px;
   top: 788px;
 }
-.hueco39{
+#hueco39{
   left:562px;
   top: 788px;
 }
-.hueco40{
+#hueco40{
   left:705px;
   top: 788px;
 }
-.hueco41{
+#hueco41{
   left:854px;
   top: 788px;
 }
-.hueco42{
+#hueco42{
   left:1004px;
   top: 788px;
 }
