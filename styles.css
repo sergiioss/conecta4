@@ -48,8 +48,8 @@ body{
 }
 #tabla{
     position: relative;
-    width: 1250px;
-    height: 1000px;
+    width: 970px;
+    height: 800px;
     background-image: url(https://img.genial.ly/56f02bbc1561e80fe0933d02/e739988d-16f2-4f93-88bf-6999f7dcd095.png);
     background-repeat:no-repeat;
     background-size:cover;
@@ -59,8 +59,8 @@ body{
   border-radius: 50%;
   text-align: center;
   background: rgb(185, 181, 181);
-  width: 120px;
-  height: 120px;
+  width: 95px;
+  height: 95px;
   box-shadow: 1px -1px gray, 5px -1px black, 4px 5px gray, 8px 10px black;
 }
 #menu-colocacion{
@@ -73,8 +73,8 @@ body{
   background: none;
 }
 .opacity{
-  width: 120px;
-  height: 120px;
+  width: 90px;
+  height: 90px;
   border-radius:50%;
   background: red;
   opacity: 0.4;
@@ -83,182 +83,182 @@ body{
   opacity: 1;
 }
 #posicion2,#posicion3,#posicion4,#posicion5,#posicion6,#posicion7{
-  width: 120px;
-  height: 120px;
+  width: 90px;
+  height: 90px;
   border-radius:50%;
 }
 #posicion2:hover,#posicion3:hover,#posicion4:hover,#posicion5:hover,#posicion6:hover,#posicion7:hover{
-  width: 120px;
-  height: 120px;
+  width: 90px;
+  height: 90px;
   border-radius:50%;
 }
 #hueco1{
-  left:119px;
-  top: 53px;
+  left:90px;
+  top: 40px;
 }
 #hueco2{
-  left:267px;
-  top: 53px;
+  left:203px;
+  top: 40px;
 }
 #hueco3{
-  left:414px;
-  top: 53px;
+  left:316px;
+  top: 40px;
 }
 #hueco4{
-  left:562px;
-  top: 53px;
+  left:433px;
+  top: 40px;
 }
 #hueco5{
-  left:705px;
-  top: 53px;
+  left:547px;
+  top: 40px;
 }
 #hueco6{
-  left:854px;
-  top: 53px;
+  left:661px;
+  top: 40px;
 }
 #hueco7{
-  left:1004px;
-  top: 53px;
+  left:776px;
+  top: 40px;
 }
 #hueco8{
-  left:119px;
-  top: 200px;
+  left:90px;
+  top: 154px;
 }
 #hueco9{
-  left:267px;
-  top: 200px;
+  left:203px;
+  top: 154px;
 }
 #hueco10{
-  left:414px;
-  top: 200px;
+  left:316px;
+  top: 154px;
 }
 #hueco11{
-  left:562px;
-  top: 200px;
+  left:433px;
+  top: 154px;
 }
 #hueco12{
-  left:705px;
-  top: 200px;
+  left:547px;
+  top: 154px;
 }
 #hueco13{
-  left:854px;
-  top: 200px;
+  left:661px;
+  top: 154px;
 }
 #hueco14{
-  left:1004px;
-  top: 200px;
+  left:776px;
+  top: 154px;
 }
 #hueco15{
-  left:119px;
-  top: 344px;
+  left:90px;
+  top: 267px;
 }
 #hueco16{
-  left:267px;
-  top: 344px;
+  left:203px;
+  top: 267px;
 }
 #hueco17{
-  left:414px;
-  top: 344px;
+  left:316px;
+  top: 267px;
 }
 #hueco18{
-  left:562px;
-  top: 344px;
+  left:433px;
+  top: 267px;
 }
 #hueco19{
-  left:705px;
-  top: 344px;
+  left:547px;
+  top: 267px;
 }
 #hueco20{
-  left:854px;
-  top: 344px;
+  left:661px;
+  top: 267px;
 }
 #hueco21{
-  left:1004px;
-  top: 344px;
+  left:776px;
+  top: 267px;
 }
 #hueco22{
-  left:119px;
-  top: 491px;
+  left:90px;
+  top: 381px;
 }
 #hueco23{
-  left:267px;
-  top: 491px;
+  left:203px;
+  top: 381px;
 }
 #hueco24{
-  left:414px;
-  top: 491px;
+  left:316px;
+  top: 381px;
 }
 #hueco25{
-  left:562px;
-  top: 491px;
+  left:433px;
+  top: 381px;
 }
 #hueco26{
-  left:705px;
-  top: 491px;
+  left:547px;
+  top: 381px;
 }
 #hueco27{
-  left:854px;
-  top: 491px;
+  left:661px;
+  top: 381px;
 }
 #hueco28{
-  left:1004px;
-  top: 491px;
+  left:776px;
+  top: 381px;
 }
 #hueco29{
-  left:119px;
-  top: 642px;
+  left:90px;
+  top: 495px;
 }
 #hueco30{
-  left:267px;
-  top: 642px;
+  left:203px;
+  top: 495px;
 }
 #hueco31{
-  left:414px;
-  top: 642px;
+  left:316px;
+  top: 495px;
 }
 #hueco32{
-  left:562px;
-  top: 642px;
+  left:433px;
+  top: 495px;
 }
 #hueco33{
-  left:705px;
-  top: 642px;
+  left:547px;
+  top: 495px;
 }
 #hueco34{
-  left:854px;
-  top: 642px;
+  left:661px;
+  top: 495px;
 }
 #hueco35{
-  left:1004px;
-  top: 642px;
+  left:776px;
+  top: 495px;
 }
 #hueco36{
-  left:119px;
-  top: 788px;
+  left:90px;
+  top: 613px;
 }
 #hueco37{
-  left:267px;
-  top: 788px;
+  left:203px;
+  top: 613px;
 }
 #hueco38{
-  left:414px;
-  top: 788px;
+  left:316px;
+  top: 613px;
 }
 #hueco39{
-  left:562px;
-  top: 788px;
+  left:433px;
+  top: 613px;
 }
 #hueco40{
-  left:705px;
-  top: 788px;
+  left:547px;
+  top: 613px;
 }
 #hueco41{
-  left:854px;
-  top: 788px;
+  left:661px;
+  top: 613px;
 }
 #hueco42{
-  left:1004px;
-  top: 788px;
+  left:776px;
+  top: 613px;
 }
 
 /* Pantalla Ganador */
